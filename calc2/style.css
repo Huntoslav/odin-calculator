@@ -38,7 +38,7 @@
     flex-basis: 100vh;
 }
 
-.first-three, .second-three, .third-three{
+.first-three, .second-three, .third-three, .fourth-three{
     flex-direction: row;
     display: flex;
     justify-content: center;
@@ -54,5 +54,17 @@
 
 .functions > button{
     width: 200px;
+}
+
+.zero{
+    width: 120px;
+}
+
+.dot{
+    width: 100px;
+}
+
+.clear{
+    width: 50px;
 }
 

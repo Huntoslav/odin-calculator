@@ -13,8 +13,18 @@ selectNumber.forEach(function(number){
        showChosenNum.textContent = e.target.innerHTML
        document.querySelector(".result-tab").appendChild(showChosenNum)
     })
-
 })
 
+function buttonNumbers(){
+   let pokus = document.querySelectorAll(".num")
+   pokus.forEach(function(number){
+    number.addEventListener("click", function(e){
+        let result = parseInt(number.textContent)
+        console.log(result)
+    })
+   })
+}
 
+let pokusDva = buttonNumbers()
+console.log(pokusDva)
 

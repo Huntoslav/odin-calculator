@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    display: border-box;
+}
+
+button{
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    padding: 5px;
+}
+
+button:hover{
+    background-color: bisque;
+}
+
+.result-tab{
+    width: 200px;
+    height: 30px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.enter{
+    width: 40px;
+    align-self: flex-end;
+}
+
+.whole-calc{
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+}

@@ -16,8 +16,8 @@ selectNumber.forEach(function(number){
 })
 
 function buttonNumbers(){
-   let pokus = document.querySelectorAll(".num")
-   pokus.forEach(function(number){
+   let firstNum = document.querySelectorAll(".num")
+   firstNum.forEach(function(number){
     number.addEventListener("click", function(e){
         let result = parseInt(number.textContent)
         console.log(result)
@@ -25,6 +25,15 @@ function buttonNumbers(){
    })
 }
 
+
 let pokusDva = buttonNumbers()
 console.log(pokusDva)
 
+console.log()
+
+let clearAll = document.querySelector(".clear")
+clearAll.addEventListener("click", function(e){
+    let clearIt = document.querySelector(".result-tab")
+    clearIt.innerHTML = ""
+
+})

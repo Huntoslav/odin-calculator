@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.whole-calc{
+    border: solid 1px black;
+    display: flex;
+    flex-direction: row;
+    height: 350px;
+    width: 300px;
+    
+}
+
+
+.numbers{
+    flex: 1 1 100vh;
+    height: 50px;
+    width: 40px;
+}
+
+.result-tab{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+}
+
+.calc-content{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.num{
+    height: 25px;
+    width: 25px;
+    flex-basis: 100vh;
+}
+
+.first-three, .second-three, .third-three{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+}
+
+.functions{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 200px;
+}
+
+.functions > button{
+    width: 200px;
+}
+
